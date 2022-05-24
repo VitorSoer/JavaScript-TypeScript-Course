@@ -7,7 +7,7 @@ let c = "C";
 [a, b , c] = [ b, c, a]
 
 console.log(a, b, c);
-
+ 
 /*
   Result:
   B C A
