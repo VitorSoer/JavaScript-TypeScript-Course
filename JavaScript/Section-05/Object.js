@@ -4,6 +4,7 @@ function createPlayer(name, age) {
   return {
     name,
     age,
+    
     showInfo() {
       return `Name: ${this.name} | Age: ${this.age}`;
     },
