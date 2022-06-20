@@ -1,13 +1,13 @@
 const path = require("path");
-const filePath = path.resolve(__dirname, "MadMen.json");
+const filePath = path.resolve(__dirname, "teste.json");
 //const write = require("./modules/Write");
 const read = require("./modules/Read");
 
 /*
 const people = [
-  { name: "Don Draper", occupation: "Creative Director" },
-  { name: "Peggy Olson", occupation: "Copy Chief" },
-  { name: "Roger Sterling", occupation: "Accounts executive" },
+  { nome: "Don Draper", occupation: "Creative Director" },
+  { nome: "Peggy Olson", occupation: "Copy Chief" },
+  { nome: "Roger Sterling", occupation: "Accounts executive" },
 ];
 
 const json = JSON.stringify(people, "", 2);
@@ -22,7 +22,7 @@ async function readFile(readPath) {
 
 function showData(fileData) {
   fileData = JSON.parse(fileData);
-  fileData.forEach((value) => console.log(value.name));
+  fileData.forEach((value) => console.log(`${value.nome} | ${value.occupation}`));
 }
 
 readFile(filePath);
