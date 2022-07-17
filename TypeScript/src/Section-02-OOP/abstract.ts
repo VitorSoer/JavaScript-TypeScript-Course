@@ -6,13 +6,25 @@ export abstract class Character {
   ) {}
 
   attack(character: Character): void {
+    console.log(`${this.name} is attacking the ${character.name}...`);
+
     this.attackPhrase();
-    character.loseHealth(this.power);
+
+    if (this.power > character.power) {
+      character.executeAttack(this.power);
+    } else {
+      console.log(`Attack Failed...\n`);
+    }
   }
 
-  loseHealth(strength: number): void {
+  executeAttack(strength: number): void {
     this.health -= strength;
-    console.log(`${this.name} was attacked | Life: ${this.health}`);
+
+    if (this.health <= 0) {
+      console.log(`${this.name} was killed...\n`);
+    } else {
+      console.log(`${this.name} was attacked | Life: ${this.health}\n`);
+    }
   }
 
   abstract attackPhrase(): void;
@@ -20,17 +32,24 @@ export abstract class Character {
 
 export class Warrior extends Character {
   attackPhrase(): void {
-    console.log('I lived by the sword, I will die by the sword!');
+    console.log(`${this.name}: I lived by the sword, I will die by the sword!`);
   }
 }
 export class Monster extends Character {
   attackPhrase(): void {
-    console.log('Aaaaaaaarghhhhh!');
+    console.log(`${this.name}: Aaaaaaaarghhhhh!`);
+  }
+}
+export class Wizard extends Character {
+  attackPhrase(): void {
+    console.log(`${this.name}: Avada Kedavraaaaaaa!`);
   }
 }
 
 const warrior = new Warrior('Warrior', 100, 1000);
 const monster = new Monster('Monster', 200, 1000);
+const wizard = new Wizard('Wizard', 2000, 1000);
 
 monster.attack(warrior);
 warrior.attack(monster);
+wizard.attack(monster);
