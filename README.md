@@ -1,11 +1,15 @@
 <div align="center" >
   <h1>JavaScript and TypeScript Course | Luiz Otávio Miranda</h1>
+  <p><strong>Front-End:</strong> HTML5, CSS3, React, React Hooks, Redux and Styled-Components.</p>
+  <p><strong>Back-End:</strong> Node, Express, MySQL/MariaDB, MongoDB, PostgreSQL, Next.Js and Strapi.</p>
+</div>
+
+#
+
+<div align="center" >
   <!--Gifs-->
-  <img src="/Just-A-Gif-Folder/loving.gif" width="355em" title="Starting the project..." height="200em" alt="Meu Banner..."/>
-  <img src="/Just-A-Gif-Folder/otavio.jpg" width="355em" title="Ending..." height="200em" alt="Meu Banner..."/>
-  <h2>Projetos e exercícios feitos durante o curso | FullStack JS</h2>
-  <div>Front-end | Webpack, babel, React, React Hooks, Redux, HTML5, CSS3...</div>
-  <div>Back-end | Node, Express, MySQL / MariaDB, MongoDB, PostgreSQL, Next.Js, Strapi...</div>
+  <img src="/Just-A-Gif-Folder/loving.gif" width="380em" title="Starting the project..." height="250em" alt="Meu Banner..."/>
+  <img src="/Just-A-Gif-Folder/otavio.jpg" width="380em" title="Ending..." height="250em" alt="Meu Banner..."/>
 </div>
 
 #
