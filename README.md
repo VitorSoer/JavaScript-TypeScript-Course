@@ -1,16 +1,21 @@
-<div align="center" >
-  <h1>JavaScript and TypeScript Course | Luiz Otávio Miranda</h1>
-  <p><strong>Front-End:</strong> HTML5, CSS3, React, React Hooks, Redux and Styled-Components.</p>
-  <p><strong>Back-End:</strong> Node, Express, MySQL/MariaDB, MongoDB, PostgreSQL, Next.Js and Strapi.</p>
-</div>
+# JavaScript and TypeScript Course | Luiz Otávio Miranda
 
-#
-
-<div align="center" >
+<div>
   <!--Gifs-->
-  <img src="/Just-A-Gif-Folder/loving.gif" width="380em" title="Starting the project..." height="250em" alt="Meu Banner..."/>
-  <img src="/Just-A-Gif-Folder/otavio.jpg" width="380em" title="Ending..." height="250em" alt="Meu Banner..."/>
+  <img src="/Just-A-Gif-Folder/loving.gif" width="300em" title="Starting the project..." height="280em" alt="Meu Banner..."/>
+  <img src="/Just-A-Gif-Folder/otavio.jpg" width="420em" title="Ending..." height="280em" alt="Meu Banner..."/>
 </div>
+
+## Technologies:
+
+> The repository contains some coding exercises and small projects used for practice.
+* Front-End: HTML5, CSS3, React, React Hooks, Redux and Styled-Components.
+* Back-End: Node, Express, MySQL/MariaDB, MongoDB, PostgreSQL, Next.Js and Strapi.
+
+You can find this course on 
+<a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/">Udemy</a>
+
+
 
 #
 
