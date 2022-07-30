@@ -1,5 +1,5 @@
 <div align="center" >
-  <h1>💣 Curso JavaScript/TypeScript | Luiz Otávio Miranda 💻</h1>
+  <h1>JavaScript and TypeScript Course | Luiz Otávio Miranda</h1>
   <!--Gifs-->
   <img src="/Just-A-Gif-Folder/loving.gif" width="355em" title="Starting the project..." height="200em" alt="Meu Banner..."/>
   <img src="/Just-A-Gif-Folder/otavio.jpg" width="355em" title="Ending..." height="200em" alt="Meu Banner..."/>
